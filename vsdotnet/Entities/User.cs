@@ -6,7 +6,7 @@ public class User
 {
 	[BsonId]
 	[BsonElement("_id"), BsonRepresentation(BsonType.ObjectId)]
-	public string? Id { get; set; }
+	public string Id { get; set; }
 	[BsonElement("username"), BsonRepresentation(BsonType.String)]
 	public string? Username { set; get; }
 	[BsonElement("password"), BsonRepresentation(BsonType.String)]
